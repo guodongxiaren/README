@@ -13,21 +13,23 @@
 功能实现方法：
 调用adb命令可实现基本功能
 
-1. 安装/卸载软件：
+###安装/卸载软件：
 
     adb install weibo.apk
     adb uninstall com.sina.weibo
     
 上述命令即可完成软件的安装与卸载
 
-2. 上传/下载手机文件
+###上传/下载手机文件
+
     adb push/pull 命令可以分别实现文件的上传和下载
 
-3. 打电话和发短信
+###打电话和发短信
 这两个功能可以用adb shell的命令来完成
-###打电话
+####打电话
+
     adb shell service call phone 2 s16 "10000"（呼叫的号码）
-###发短信
+####发短信
    *  adb shell am start -a android.intent.action.SENDTO -d sms:10086 --es sms_body "100"//编辑短信（100为短信内容）
    *  adb shell input keyevent 22//焦点去到发送键
    *  adb shell input keyevent 66//按下回车发送
