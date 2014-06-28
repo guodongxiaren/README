@@ -16,8 +16,10 @@
     adb install weibo.apk
     adb uninstall com.sina.weibo
 上述命令即可完成软件的安装与卸载
+
 2. 上传/下载手机文件
     adb push/pull 命令可以分别实现文件的上传和下载
+
 3. 打电话和发短信
 这两个功能可以用adb shell的命令来完成
 ###打电话
