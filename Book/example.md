@@ -12,9 +12,12 @@
 
 功能实现方法：
 调用adb命令可实现基本功能
+
 1. 安装/卸载软件：
+
     adb install weibo.apk
     adb uninstall com.sina.weibo
+    
 上述命令即可完成软件的安装与卸载
 
 2. 上传/下载手机文件
