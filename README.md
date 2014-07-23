@@ -27,8 +27,9 @@ This README.md is used to test all kinds of syntax of GitHub Flavored Markdown.
     * 来源于网络的图片
     * GitHub仓库中的图片
 * [列表](#dot)
-* [符号包围](#symbol)
+* [缩进引用](#symbol)
 * [代码高亮](#code)
+* [显示表格](#table) 
 
 <a name="line"/>
 ##***、---、___显示虚横线
@@ -73,7 +74,9 @@ Thank `You` . Please `Call` Me `Coder`
 *斜体1*
 
 _斜体2_
-
+####粗体
+**粗体1**
+__粗体2__
 ##<a name="link"/>文字链接
 ###链接外部URL
 [我的博客](http://blog.csdn.net/guodongxiaren/article/details/23690801 "悬停显示")
@@ -143,7 +146,7 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
-##插入表格
+##<a name="table"/>显示表格
 First Header  | Second Header
 ------------- | -------------
 Content Cell  | Content Cell
@@ -159,10 +162,14 @@ Content Cell  | Content Cell
 | Help      | Display the help window.|
 | Close     | Closes a window     |
 
+表格中也可以使用普通文本的删除线，斜体等效果
+
 | Name | Description          |
 | ------------- | ----------- |
 | Help      | ~~Display the~~ help window.|
 | Close     | _Closes_ a window     |
+
+表格可以指定对齐方式
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
