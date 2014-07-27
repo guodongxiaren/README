@@ -1,5 +1,7 @@
 Emoji表情
 ======
+鼠标悬停在表情上，即可显示emoji表情的符号码,将对应符号码输入你的markdown文本即可显示emoji表情。如`:blush:`，显示:blush:
+
 ##人物
  :bowtie:
  :smile:
