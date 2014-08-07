@@ -1,6 +1,6 @@
 TEST
 ===========================
-This README.md is used to test all kinds of syntax of GitHub Flavored Markdown.
+该文件用来测试和展示各种书写README的markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。
 ---------------------------
 ###　　　　　　　　　　　　Author:Jelly
 ###　　　　　　　　　 E-mail:879231132@qq.com
