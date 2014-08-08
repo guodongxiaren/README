@@ -98,6 +98,10 @@ __粗体2__
 ##<a name="pic"/>显示图片
 ###来源于网络的图片
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+送给大家一个大大的金色星星。
+![](https://assets-cdn.github.com/images/modules/contact/goldstar.gif)
+>这个星星是给github提出问题的时候，经常会看到的。
+
 ###GitHub仓库中的图片
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 ###<a name="piclink">给图片加上超链接
