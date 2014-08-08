@@ -81,7 +81,6 @@ _斜体2_
 
 __粗体2__
 
-[testttttt][#1]
 ##<a name="link"/>文字链接
 ###链接外部URL
 [我的博客](http://blog.csdn.net/guodongxiaren/article/details/23690801 "悬停显示")
@@ -95,7 +94,6 @@ __粗体2__
 ###锚点
 [点此回到目录](#index)
 
-[#1]:sssssss
 
 ##<a name="pic"/>显示图片
 ###来源于网络的图片
