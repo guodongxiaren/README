@@ -13,25 +13,28 @@ TEST
 ##<a name="index"/>目录
 * [横线](#line)
 * [标题](#title)
-* [显示文本](#text)
+* [文本](#text)
     * 普通文本
     * 单行文本
     * 多行文本
-    * 部分文字高亮
-* [超链接](#link) 
+    * 文字高亮
+* [链接](#link) 
     * 文字超链接
         *  链接外部URL
         *  链接本仓库里的URL
-        *  锚点
+    *  锚点
     * [图片超链接](#piclink)
-* [显示图片](#pic)
+* [图片](#pic)
     * 来源于网络的图片
     * GitHub仓库中的图片
 * [列表](#dot)
-* [缩进引用](#symbol)
-* [代码高亮](#code)
-* [显示表格](#table) 
-* [添加表情](#emoji)
+    * 圆点列表
+    * 数字列表
+    * 复选框列表
+* [缩进](#symbol)
+* [代码](#code)
+* [表格](#table) 
+* [表情](#emoji)
 
 <a name="line"/>
 ##***、---、___显示虚横线
@@ -96,15 +99,14 @@ __粗体2__
 ###链接本仓库里的URL
 [Book](./Book)
 ###锚点
-[点此回到目录](#index)
-
+我们可以使用HTML的锚点标签来设置锚点：[回到目录](#index)  
+但其实呢，每一个标题都是一个锚点，不需要用标签来指定，比如我们 [回到顶部](#TEST)
+不过不幸的是，由于对中文支持的不好，所以中文标题貌似是不能视作标签的。
 
 ##<a name="pic"/>显示图片
 ###来源于网络的图片
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 ![](https://assets-cdn.github.com/images/modules/contact/goldstar.gif)
->送给大家一个大大的金色星星。
->>这个星星是给github提出问题的时候，经常会看到的。
 
 ###GitHub仓库中的图片
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
