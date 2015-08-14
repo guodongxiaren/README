@@ -240,6 +240,11 @@ Content Cell  | Content Cell
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
+表格中嵌入图片
+| 图片 | 描述 |
+| ---- | ---- |
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu
+
 ##<a name="emoji"/>添加表情
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
