@@ -241,6 +241,7 @@ Content Cell  | Content Cell
 | zebra stripes | are neat        |    $1 |
 
 表格中嵌入图片
+
 | 图片 | 描述 |
 | ---- | ---- |
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu
