@@ -88,6 +88,15 @@ _斜体2_
 
 __粗体2__
 
+####组合使用粗体、斜体和删除线
+***斜粗体1***
+
+___斜粗体2___
+
+***~~斜粗体删除线1~~***
+
+~~***斜粗体删除线2***~~
+
 ##<a name="link"/>链接
 ###链接外部URL
 [我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")   语法如下：
@@ -95,12 +104,12 @@ __粗体2__
 [我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
 ```
 ###链接的另一种写法
-[我的博客][1]  
+[我的博客][id]  
 
-[1]:http://blog.csdn.net/guodongxiaren "悬停显示"   语法如下：
+[id]:http://blog.csdn.net/guodongxiaren "悬停显示"   语法如下：
 ```
-[我的博客][1]
-[1]:http://blog.csdn.net/guodongxiaren "悬停显示"
+[我的博客][id]
+[id]:http://blog.csdn.net/guodongxiaren "悬停显示"
 ```
 中括号[ ]里的id，可以是数字，字母等的组合。这两行可以不连着写，**一般把第二行的链接统一放在文章末尾**，id上下对应就行了。这样正文看起来会比较干净。
 
