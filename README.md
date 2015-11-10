@@ -134,8 +134,16 @@ ___斜粗体2___
 ###GitHub仓库中的图片
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 ###<a name="piclink">给图片加上超链接
+####第一种
+
 [![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
 [head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
+
+#### 第二种
+[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
+
+
+
 
 ##<a name="dot"/>列表
 ###圆点列表
