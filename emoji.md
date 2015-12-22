@@ -1,5 +1,5 @@
 Emoji表情
-======
+=========
 将对应emoji表情的符号码复制后输入你的markdown文本即可显示emoji表情。
 如`:blush:`，显示为:blush:
 
@@ -250,7 +250,7 @@ Emoji表情
 |`:ru:`|:ru:|` :gb:`| :gb:|` :uk:`| :uk:|
 |`:de:`|:de:||||||
 
-##符号
+## 符号
 
 |syntax|preview|syntax|preview|syntax|preview|
 |:-------:|:---:|:------:|:-----:|:------:|:-----:|
