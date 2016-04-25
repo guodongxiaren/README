@@ -23,7 +23,7 @@ README
         *  链接外部URL
         *  链接本仓库里的URL
     *  锚点
-    * [图片超链接](#piclink)
+    * [图片链接](#图片链接)
 * [图片](#pic)
     * 来源于网络的图片
     * GitHub仓库中的图片
@@ -123,10 +123,9 @@ Thank `You` . Please `Call` Me `Coder`
 ###链接本仓库里的URL
 |语法|效果|
 |----|-----
-|`[我的简介]|(./example/)`|[我的简介]|(./example/profile.md)
-|`[Book]|(./Book)`|[Book](./Book)
+|`[我的简介]|(/example/profile.md)`|[我的简介](/example/profile.md)
+|`[Book]|(./Book)`|[Book](/Book)
 
-如果文件要引用的文件不存在，则待点击的文本为红色。引用的文件存在存在则文本为蓝色。
 ###锚点
 我们可以使用HTML的锚点标签（`#`）来设置锚点：[回到目录](#index)  
 但其实呢，每一个标题都是一个锚点，不需要用标签来指定，比如我们 [回到顶部](#TEST)
@@ -138,7 +137,7 @@ Thank `You` . Please `Call` Me `Coder`
 
 ###GitHub仓库中的图片
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
-###<a name="piclink">给图片加上超链接
+###图片链接
 ####第一种
 
 [![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
