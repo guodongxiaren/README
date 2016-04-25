@@ -10,41 +10,45 @@ README
 
 
 
-##<a name="index"/>目录
-* [横线](#line)
-* [标题](#title)
-* [文本](#text)
+##目录
+* [横线](#横线)
+* [标题](#标题)
+* [文本](#文本)
     * 普通文本
     * 单行文本
     * 多行文本
     * 文字高亮
-* [链接](#link) 
+* [图片](#图片)
+    * 来源于网络的图片
+    * GitHub仓库中的图片
+* [链接](#链接) 
     * 文字超链接
         *  链接外部URL
         *  链接本仓库里的URL
     *  锚点
     * [图片链接](#图片链接)
-* [图片](#pic)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
-* [列表](#dot)
+* [列表](#列表)
     * 圆点列表
     * 数字列表
     * 复选框列表
-* [块引用](#blockquotes)
-* [代码](#code)
-* [表格](#table) 
-* [表情](#emoji)
+* [块引用](#块引用)
+* [代码高亮](#代码高亮)
+* [表格](#表格) 
+* [表情](#表情)
 
-<a name="line"/>
-##***、---、___显示虚横线
+横线
+-----------
+***、---、___可以显示横线效果
+
 ***
 ---
 ___
 
 
 
-<a name="title"/>
+标题
+------
+
 #一级标题
 ##二级标题
 ###三级标题
@@ -53,7 +57,8 @@ ___
 ######六级标题
 
 
-##<a name="text"/>显示文本
+文本
+------
 ###普通文本
 这是一段普通的文本
 ####换行
@@ -76,7 +81,7 @@ ___
 
 在连续几行的文本开头加入1个Tab或者4个空格。
 
-###部分文字高亮
+###文字高亮
 Thank `You` . Please `Call` Me `Coder`
 ####高亮功能更适合做一篇文章的tag
 ```
@@ -109,7 +114,34 @@ Thank `You` . Please `Call` Me `Coder`
 |`***~~斜粗体删除线1~~***`|***~~斜粗体删除线1~~***
 |`~~***斜粗体删除线2***~~`|~~***斜粗体删除线2***~~
 
-##<a name="link"/>链接
+图片
+------
+基本格式：
+```
+![alt](URL title)
+```
+alt和title即对应HTML中的alt和title属性（都可省略）：
+- alt表示图片显示失败时的替换文本
+- title表示鼠标悬停在图片时的显示文本（注意这里要加引号）
+
+URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
+```
+https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+```
+
+|#|语法|效果|
+|---|---|----
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+|2|`![][foryou]`|![][foryou]
+
+注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
+>在文末有foryou的定义：
+```
+[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+```
+
+链接
+------
 ###链接外部URL
 |#|语法|效果|
 |---|----|-----
@@ -117,8 +149,11 @@ Thank `You` . Please `Call` Me `Coder`
 |2|`[我的知乎][zhihu] `|[我的知乎][zhihu] 
 |2|`[zhihu]:https://www.zhihu.com/people/jellywong "我的知乎，欢迎关注"`|   
 
-语法2由两部分组成：中括号[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了。第二部分标记实际URL。
->一般把全文所有[ ]定义的实际URL统一放在文章末尾，这样正文看起来会比较干净。
+语法2由两部分组成：
+- 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
+- 第二部分标记实际URL。
+>使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。
+>>URL标识符是我起的名字，不知道是否准确。囧。。
 
 ###链接本仓库里的URL
 |语法|效果|
@@ -126,36 +161,37 @@ Thank `You` . Please `Call` Me `Coder`
 |`[我的简介]|(/example/profile.md)`|[我的简介](/example/profile.md)
 |`[Book]|(./Book)`|[Book](/Book)
 
-###锚点
-我们可以使用HTML的锚点标签（`#`）来设置锚点：[回到目录](#index)  
-但其实呢，每一个标题都是一个锚点，不需要用标签来指定，比如我们 [回到顶部](#TEST)
-不过不幸的是，由于对中文支持的不好，所以中文标题貌似是不能视作标签的。
-
-##<a name="pic"/>显示图片
-###来源于网络的图片
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-
-###GitHub仓库中的图片
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 ###图片链接
-####第一种
+给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
+直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。
 
-[![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
-[head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
+|#|语法|效果|
+|---|----|:---:
+|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)
+|2|`[![](/img/zhihu.png "我的知乎")][zhihu]`|[![](/img/zhihu.png "我的知乎")][zhihu]|
+|3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]
 
-#### 第二种
-[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
+因为图片本身和链接本身都支持URL标识符的形式，所以图片链接也可以很简洁（见例3）。
+>本文URL标识符都放置于文末
+
+###锚点
+其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们 
+
+|语法|效果|
+|---|---
+|`[回到顶部](#readme)`|[回到顶部](#readme)
+
+不过要注意，标题中的英文字母都被转化为**小写字母**了。
+>以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
 
 
-
-
-##<a name="dot"/>列表
+##列表
 ###圆点列表
 * 昵称：果冻虾仁
-* 别名：隔壁老王
+- 别名：隔壁老王
 * 英文名：Jelly
 
-###更多圆点
+###多级列表
 * 编程语言
     * 脚本语言
         * Python
@@ -199,7 +235,7 @@ Thank `You` . Please `Call` Me `Coder`
 - [ ] .NET
 
 您可以使用这个功能来标注某个项目各项任务的完成情况。
-##<a name="blockquotes"/>块引用
+##块引用
 
 ###常用于引用文本
 ####文本摘自《深入理解计算机系统》P27
@@ -215,7 +251,8 @@ Thank `You` . Please `Call` Me `Coder`
 >>>>平衡二叉树
 >>>>>满二叉树
 
-##<a name="code"/>代码高亮
+代码高亮
+----------
 ```Java
 public static void main(String[]args){} //Java
 ```
@@ -231,7 +268,9 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
-##<a name="table"/>显示表格
+表格
+--------
+
 表头1  | 表头2
 --------- | --------
 表格单元  | 表格单元 
@@ -242,6 +281,7 @@ string &operator+(const string& A,const string& B) //cpp
 | 表格单元   | 表格单元   |
 | 表格单元   | 表格单元   |
 
+###对齐
 表格可以指定对齐方式
 
 | 左对齐 | 居中  | 右对齐 |
@@ -250,20 +290,22 @@ string &operator+(const string& A,const string& B) //cpp
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
+###混合其他语法
 表格单元中的内容可以和其他大多数GFM语法配合使用：  
-使用普通文本的删除线，斜体等效果
+####使用普通文本的删除线，斜体等效果
 
 | 名字 | 描述          |
 | ------------- | ----------- |
 | Help      | ~~Display the~~ help window.|
 | Close     | _Closes_ a window     |
-表格中嵌入图片
+####表格中嵌入图片
 
 | 图片 | 描述 |
 | ---- | ---- |
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu
+|![baidu][baidu-logo] | 百度
 
-##<a name="emoji"/>添加表情
+表情
+----------
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
 比如`:blush:`，可以显示:blush:。
@@ -273,4 +315,10 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 
 --------------------------------
+[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
 [zhihu]:https://www.zhihu.com/people/jellywong "我的知乎，欢迎关注"
+[weibo]:http://weibo.com/linpiaochen
+[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
+[weibo-logo]:/img/weibo.png "点击图片进入我的微博"
+[csdn-logo]:/img/csdn.png "csdn"
+[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
