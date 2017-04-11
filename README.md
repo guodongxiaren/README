@@ -155,8 +155,8 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ### 链接本仓库里的URL
 |语法|效果|
 |----|-----|
-|`[我的简介]|(/example/profile.md)`|[我的简介](/example/profile.md)|
-|`[Book]|(./Book)`|[Book](/Book)|
+|`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
+|`[Book](./Book)`|[Book](/Book)|
 
 ### 图片链接
 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
