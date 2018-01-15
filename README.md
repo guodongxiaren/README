@@ -40,6 +40,7 @@ README
 * [表格](#表格) 
 * [表情](#表情)
 * [diff语法](#diff语法)
+* [折叠](#折叠)
 
 ### 横线
 -----------
@@ -329,6 +330,19 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 - 鸟宿池边树，僧推月下门
 ```
 
+折叠
+---------
+使用 `html5` 标签 `details` 和 `summary` 可实现折叠效果。
+
+效果如下：
+<details>
+  <summary>Some details</summary>
+  <p>More info about the details.</p>
+</details>
+<details open>
+  <summary>Even more details</summary>
+  <p>Here are even more details about the details.</p>
+</details>
 
 
 --------------------------------
