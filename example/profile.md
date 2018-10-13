@@ -12,17 +12,11 @@
 
 
 # 文青的梦
-小时候我喜欢读的书就是历史书，我喜欢里面的故事，但是后来上历史课成绩也一般。因为我写不出这个事件的历史意义，也写不出那个事件的社会影响。但这不妨碍我对历史的喜爱。
+When I was a child, the book I liked to read was a history book. I liked the story inside, but later I got a grade in history. Because I can't write the historical significance of this incident, I can't write the social impact of that incident. But this does not hinder my love of history.
 
-后来高中虽然读理科，却意外地热爱上了诗词和古代文学。我喜欢把诗词和背后的那些人物背景，历史背景联系起来，也喜欢将不同的材料放到一起联想和对比。当时我成绩确实不好，但做这些事却乐此不疲，我称之为“做梦”。
+Later, although he was in science, he accidentally fell in love with poetry and ancient literature. I like to associate poetry with the background of the characters behind them, the historical background, and I like to put different materials together to associate and contrast. At the time, my grades were really bad, but I was never tired of doing these things. I called it "dreaming."
 
-比如从洛阳纸贵的左思《三都赋》，看到二陆（陆机陆云）曾嘲讽相貌丑陋的左思，进而开始联想，风华绝代的魏晋名士“二陆入洛，三张减价”。又想到二陆悲催结局“华亭鹤唳，可得闻乎”，然后向前追溯，想起陆云和荀隐的名对“日下荀鸣鹤，云间陆士龙”。进而想到除三害的周处。周处改邪归正后，曾去拜陆机为师，陆机不在，遇到陆云，周处感叹自己岁月蹉跎，一事无成，陆云说出了那句著名的“朝过夕改”。二陆是火烧刘备连营七百里的陆逊之孙，此后周处也在东吴做了大官，在西晋兵士过长江，破东吴之日，周处曾勇敢地和前来羞辱他们的西晋将军打嘴炮。后来周处也在西晋做官，但最终死于八王之乱，实在可惜。想起混乱的八王之乱，便又想起“何不食肉糜”的白痴皇帝晋惠帝。
-
-后来学习《滕王阁序》，“物华天宝,龙光射牛斗之墟”。这处典故，我曾在《三言二拍》中读过，张华夜观天象，发现天上宝气冲天，源头为豫章之地（今南昌）。便吩咐雷焕做了豫章县令，后来雷焕果然在此挖出了太阿和龙泉两把宝剑。然后想到张华，便想到了“三张”，又想到了张华盛赞左思《三都赋》，也联想到了让三张减价的二陆，竟又和前面的联想串接起来了。。自己都啧啧称奇。。
-
-每每沉浸在这些思绪的飞舞之中，不能自拔。
-另外自己从小还有一个作家梦，经常在脑子里想一些或有趣或感动的故事和桥段，这些也常常让我思绪飞舞。
-感叹自己真是一个被理科耽误的文艺青年。。
+For example, from Luoyang Zhigui's Zuo Si "Sandu Fu", I saw that Erlu (Lu Ji Lu Yun) once ridiculed the ugly Zuo Si, and then began to associate, the famous Wei and Jin dynasty "two land in Luo, three price reductions." I also thought that the two continents and the tragic end of the "Huating cranes, can be heard", and then traced back, thinking of the name of Lu Yun and Lu Yin "the next day, the crane, the cloud between the Shi Shilong." Then think of the week of the three evils. After changing the evil spirits at the end of the week, he went to worship the land machine as a teacher. The land machine was not there. He met Lu Yun. Zhou sighed that he was in a state of sorrow. Nothing happened. Lu Yun said the famous "change to the night." The second land is the grandson of Lu Xun who burned Liu Beilian’s seven hundred miles.
 
 
 
