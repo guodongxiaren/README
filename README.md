@@ -121,12 +121,18 @@ ___
 图片
 ------
 基本格式：
-```
-![alt](URL title)
-```
+1. `![alt](URL title "悬停提示")`
+2. `<img src="URL" width=""/>`
+3. `<div align="center"><img src="URL" width=""/></div>`
+
+第 2 种标签代码可以通过 width 属性来设置图片大小，可以缺省 height ，因为它是按比例缩放
+
+第 3 种方式可以将图片居中放置
+
 alt和title即对应HTML中的alt和title属性（都可省略）：
 - alt表示图片显示失败时的替换文本
 - title表示鼠标悬停在图片时的显示文本（注意这里要加引号）
+- 当鼠标停留在图片上方时会在鼠标附近显示“悬停提示”
 
 URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
 ```
@@ -137,6 +143,8 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |---|---|----
 |1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 |2|`![][foryou]`|![][foryou]
+|3|`<img src="http://www.baidu.com/img/bdlogo.gif" width="100"/>`|<img src="http://www.baidu.com/img/bdlogo.gif" width="100"/>
+|4|`<div align="center"><img src="http://www.baidu.com/img/bdlogo.gif" width="100"/></div>`|<div align="center"><img src="http://www.baidu.com/img/bdlogo.gif" width="100"/></div>
 
 注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
 >在文末有foryou的定义：
@@ -152,6 +160,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |---|----|-----|
 |1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
 |2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
+|3|`<a href="URL">链接描述</a>`|<a href="www.baidu.com">百度一下</a>
 
 语法2由两部分组成：
 - 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
