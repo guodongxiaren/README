@@ -136,12 +136,12 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |#|语法|效果|
 |---|---|----
 |1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|2|`![][foryou]`|![][foryou]
+|2|`![][code-past]`|![][code-past]
 
 注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
->在文末有foryou的定义：
+>在文末有code-past的定义：
 ```
-[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+[code-past]:https://img-blog.csdnimg.cn/201908060004034.png
 ```
 
 链接
@@ -394,4 +394,4 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 [weibo-logo]:/img/weibo.png "点击图片进入我的微博"
 [csdn-logo]:/img/csdn.png "我的CSDN博客"
-[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+[code-past]:https://img-blog.csdnimg.cn/201908060004034.png
