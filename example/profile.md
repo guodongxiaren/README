@@ -79,6 +79,9 @@
 |[简书][jianshu]
 |[CSDN][csdn]
 
+另外最近在玩公众号，欢迎点赞、关注，分享，转发
+![](https://img-blog.csdnimg.cn/20190806001006855.jpeg)
+
 *******************
 [csdn]:http://blog.csdn.net/guodongxiaren
 [zhihu]:https://www.zhihu.com/people/JellyWong
