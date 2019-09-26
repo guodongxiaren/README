@@ -3,9 +3,8 @@ layout: page
 title: "Github markdown"
 author: 果冻虾仁
 permalink: /help/dns/
-编号:
-    - "0001"
-    _ "2222"
+编号: - "0001"
+    - "2222"
 ---
 
 README
