@@ -41,6 +41,7 @@ E-mail |Jelly.K.Wang@qq.com
 * [表情](#表情)
 * [diff语法](#diff语法)
 * [details折叠语法](#details折叠语法)
+* [注释](#注释)
 
 ### 横线
 -----------
@@ -426,6 +427,22 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 
 details折叠语法
 --
+</summary>与下面的内容要空一行
+
+```text
+<details>
+<summary>射雕英雄传</summary>
+
+* 第一回 风雪惊变
+* 第二回 江南七怪
+* 第三回 黄沙莽莽
+* 第四回 黑风双煞
+* 第五回 弯弓射雕
+* 第六回 崖顶疑阵
+* 第七回 比武招亲
+</details>
+```
+
 <details>
 <summary>射雕英雄传</summary>
 
@@ -438,13 +455,26 @@ details折叠语法
 * 第七回 比武招亲
 </details>
 
-<details>
-<summary><mark><font color=darkred>点击查看详细内容</font></mark></summary>
-  <pre><code>  
-for i in a:
-    print(i)
-  </code></pre>
-</details>
+## 注释
+* html块注释
+```text
+<!--
+哈哈我是注释，
+不会在浏览器中显示。
+-->
+```
+<!--
+哈哈我是注释，
+不会在浏览器中显示。
+-->
+
+* 行注释
+```text
+[//]: # (哈哈我是注释，不会在浏览器中显示。)
+
+```
+
+[//]:(哈哈我是注释，不会在浏览器中显示
 
 ## 其他
 * 目前github暂时不支持markdown流程控制语法
