@@ -41,6 +41,8 @@ E-mail |Jelly.K.Wang@qq.com
         *  链接本仓库里的URL
     *  锚点
     * [图片链接](#图片链接)
+    * Reference索引超链
+    * 自动链接
 * [列表](#列表)
     * 无序列表
     * 有序列表
@@ -52,6 +54,9 @@ E-mail |Jelly.K.Wang@qq.com
 * [diff语法](#diff语法)
 * [details折叠语法](#details折叠语法)
 * [注释](#注释)
+* [其他](#其他)
+    * 上标
+    * 下标
 
 ### 横线
 -----------
@@ -283,7 +288,9 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 ### 一级有序列表
 #### 语法
-就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。 
+就是在数字后面加一个点，再加一个空格。  
+数据可以全部写一个，如1，让其自动推断
+ 
 ```
 面向对象的三个基本特征：
 
@@ -299,6 +306,14 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 2. 继承
 3. 多态
 
+```text
+1. 封装
+1. 继承
+1. 多态
+```
+1. 封装
+1. 继承
+1. 多态
 
 ### 多级有序列表
 和无序列表一样，有序列表也有多级结构。
@@ -547,7 +562,20 @@ details折叠语法
 ```
 <dir>
     <font color=#2196F3 size=2 face="宋体">宋体大小为2的字</font>
+    <p style="background-color:green">This is a paragraph.</p>
 </dir>
+
+* 上标
+```text
+2<sup>3</sub>
+```
+2<sup>3</sub>
+
+* 下标
+```text
+H<sub>2</sub>O
+```
+H<sub>2</sub>O
 
 
 --------------------------------
