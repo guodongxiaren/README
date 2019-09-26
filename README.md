@@ -394,28 +394,16 @@ zebra stripes |are neat        |$1
 ### yaml格式表格
 必须写在文件的首行，见本文最上方  
 
-```text
+    ---
+    layout: page
+    title: "Github markdown"
+    author: 果冻虾仁
+    permalink: /help/dns/
+    编号: 
+        - 0001
+        - "2222"
+    ---
 
----
-layout: page
-title: "Github markdown"
-author: 果冻虾仁
-permalink: /help/dns/
-编号: 
-    - 0001
-    - "2222"
----
-```
-
----
-layout: page
-title: "Github markdown"
-author: 果冻虾仁
-permalink: /help/dns/
-编号: 
-    - 0001
-    - "2222"
----
 
 ### 混合其他语法
 表格单元中的内容可以和其他大多数GFM语法配合使用，如：  
