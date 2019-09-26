@@ -556,15 +556,6 @@ details折叠语法
 
 ## 其他
 * 目前github暂时不支持markdown流程控制语法
-* 字体
-```text
-<font color=#2196F3 size=2 face="宋体">宋体大小为2的字</font>
-```
-<html>
-<span style="color:red;">这是比font标签更好的方式。可以试试。</span>
-$\color{blue}{MathJax}$
-</html>
-
 * 上标
 ```text
 2<sup>3</sub>
