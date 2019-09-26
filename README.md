@@ -391,6 +391,32 @@ zebra stripes |are neat        |$1
 坚线特殊符 |在表格中使用\转换无效 <br>需使用Unicode编码`&#124;`        |&#124;
 
 
+### yaml格式表格
+必须写在文件的首行，见本文最上方  
+
+```text
+
+---
+layout: page
+title: "Github markdown"
+author: 果冻虾仁
+permalink: /help/dns/
+编号: 
+    - 0001
+    - "2222"
+---
+```
+
+---
+layout: page
+title: "Github markdown"
+author: 果冻虾仁
+permalink: /help/dns/
+编号: 
+    - 0001
+    - "2222"
+---
+
 ### 混合其他语法
 表格单元中的内容可以和其他大多数GFM语法配合使用，如：  
 #### 使用普通文本的删除线，斜体等效果
