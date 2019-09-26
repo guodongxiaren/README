@@ -427,7 +427,7 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 details折叠语法
 --
 <details>
-<summary>射雕英雄传</summary>
+<summary>射雕英雄传</summary>  
 * 第一回 风雪惊变
 * 第二回 江南七怪
 * 第三回 黄沙莽莽
