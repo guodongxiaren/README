@@ -560,10 +560,9 @@ details折叠语法
 ```text
 <font color=#2196F3 size=2 face="宋体">宋体大小为2的字</font>
 ```
-<dir>
-    <font color=#2196F3 size=2 face="宋体">宋体大小为2的字</font>
-    <p style="background-color:green">This is a paragraph.</p>
-</dir>
+<span style="color:red;">这是比font标签更好的方式。可以试试。</span>
+
+$\color{blue}{MathJax}$
 
 * 上标
 ```text
