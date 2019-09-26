@@ -3,9 +3,6 @@ layout: page
 title: "Github markdown"
 author: 果冻虾仁
 permalink: /help/dns/
-    aa:
-        aa1: "0000"
-        aa2: "2222"
 ---
 
 README
