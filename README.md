@@ -1,6 +1,12 @@
-版本: v0.1
-作者: 果冻虾仁
-
+---
+layout: page
+title: "Github markdown"
+author: 果冻虾仁
+permalink: /help/dns/
+    aa:
+        aa1: "0000"
+        aa2: "2222"
+---
 
 README
 ===========================
