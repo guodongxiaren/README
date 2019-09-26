@@ -5,7 +5,7 @@ author: 果冻虾仁
 permalink: /help/dns/
 aa:
     - "0000"
-    - "2222"
+    "2222"
 ---
 
 README
