@@ -3,9 +3,9 @@ layout: page
 title: "Github markdown"
 author: 果冻虾仁
 permalink: /help/dns/
-aa:
-    - "0000"
-    "2222"
+编号:
+    - "0001"
+    _ "2222"
 ---
 
 README
@@ -487,6 +487,11 @@ details折叠语法
 
 ## 其他
 * 目前github暂时不支持markdown流程控制语法
+* 字体
+```text
+<font color=#2196F3 size=2 face="宋体">宋体大小为2的字</font>
+```
+<font color=#2196F3 size=2 face="宋体">宋体大小为2的字</font>
 
 
 --------------------------------
