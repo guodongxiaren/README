@@ -610,7 +610,6 @@ details折叠语法
     ```
     H<sub>2</sub>O
 
-$\uparrow$
 
 --------------------------------
 [csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
