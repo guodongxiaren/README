@@ -9,7 +9,7 @@ permalink: /help/dns/
 ---
 
 README
-===========================
+==
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 
 ****
@@ -58,8 +58,8 @@ E-mail |Jelly.K.Wang@qq.com
     * 上标
     * 下标
 
-### 横线
------------
+横线
+--
 ***、---、___可以显示横线效果
 
 ***
@@ -69,7 +69,7 @@ ___
 
 
 标题
-------
+--
 
 ```text
 # 一级标题  
@@ -111,12 +111,15 @@ ___
 
 
 文本
-------
+--
+
 ### 普通文本
 这是一段普通的文本
+
 ### 单行文本
     Hello,大家好，我是果冻虾仁。
 在一行开头加入1个Tab或者4个空格。
+
 ### 文本块
 #### 语法1
 在连续几行的文本开头加入1个Tab或者4个空格。
@@ -133,8 +136,9 @@ ___
 你可以在知乎、CSDN、简书搜索【果冻虾仁】找到我
 ```
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
+
 ### 文字高亮
-文字高亮功能能使行内部分文字高亮，使用一对反引号。
+文字高亮功能能使行内部分文字高亮，使用一对反引号，还可以用于避免转义  
 语法：
 ```
 `linux` `网络编程` `socket` `epoll` 
@@ -142,14 +146,16 @@ ___
 效果：`linux` `网络编程` `socket` `epoll`
 
 也适合做一篇文章的tag
+
 #### 换行
-直接回车不能换行，  
-可以在上一行文本后面补两个空格，  
+直接回车不能换行  
+* 可以在上一行文本后面补两个空格，  
 这样下一行的文本就换行了。
 
-或者就是在两行文本直接加一个空行。
+* 或者就是在两行文本直接加一个空行，
 
 也能实现换行效果，不过这个行间距有点大。
+
 #### 斜体、粗体、删除线
 
 |语法|效果|
@@ -167,10 +173,10 @@ ___
     斜体、粗体、删除线可混合使用
 
 图片
-------
+--
 基本格式：
 ```
-![alt](URL title)
+![alt](URL "title")
 ```
 alt和title即对应HTML中的alt和title属性（都可省略）：
 - alt表示图片显示失败时的替换文本
@@ -193,7 +199,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
 
 链接
-------
+--
 ### 链接外部URL
 
 |#|语法|效果|
@@ -261,35 +267,45 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 <http://ibruce.info>  
 <bu.ru@qq.com>
 
-## 列表
+列表
+--
 ### 无序列表
 #### 语法
+表示符有: * - +
 ```
 * 昵称：果冻虾仁
 - 别名：隔壁老王
-* 英文名：Jelly
++ 英文名：Jelly
 ```
 #### 效果
 * 昵称：果冻虾仁
 - 别名：隔壁老王
-* 英文名：Jelly
++ 英文名：Jelly
 
 ### 多级无序列表
 #### 语法
 ```
 * 编程语言
+    ```text
+    这时开发效率最高的语言
+    ...
+    ```
     * 脚本语言
         * Python
 ```
 #### 效果
 * 编程语言
+    ```text
+    这时开发效率最高的语言
+    ...
+    ```
     * 脚本语言
         * Python
 
 ### 一级有序列表
 #### 语法
 就是在数字后面加一个点，再加一个空格。  
-数据可以全部写一个，如1，让其自动推断
+序号可以全部写一个，如1，让其自动推断
  
 ```
 面向对象的三个基本特征：
@@ -333,6 +349,13 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 ### 复选框列表
 #### 语法
+```text
+- [ ] content 
+-空格[空格]空格content 
+解释: [ ]括号里面的空格可以换成[x],代表选中对话框
+```
+
+**示例**  
 ```
 - [x] 需求分析
 - [x] 系统设计
@@ -354,7 +377,9 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 > Tip:
 >> 在GitHub的**issue**中使用该语法是可以实时点击复选框来勾选或解除勾选的，而无需修改issue原文。
 
-## 块引用
+
+块引用
+--
 
 ### 常用于引用文本
 #### 文本摘自《深入理解计算机系统》P27
@@ -380,7 +405,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>>>> 满二叉树
 
 代码高亮
-----------
+--
 
 ### 语法
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
@@ -389,26 +414,34 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```Java
 public static void main(String[]args){} //Java
 ```
+
 ```c
 int main(int argc, char *argv[]) //C
 ```
+
 ```Bash
 echo "hello GitHub" #Bash
 ```
+
 ```javascript
 document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```
+
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
+
 表格
---------
+--
+表头上面一行为文本，需要在文本与表头之间空一行
+
 ```text
 |表头1  |表头2 |
 |--- |--- |
 |表格单元  |表格单元 |
 |表格单元  |表格单元 |
 ```
+
 |表头1  |表头2 |
 |--- |--- |
 |表格单元  |表格单元 |
@@ -431,7 +464,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 ```text
 左对齐 | 居中  | 右对齐
-:--- |:---: |---: |
+:--- |:---: |---: 
 col 3 is      |some wordy text |$1600
 col 2 is      |centered        |$12
 zebra stripes |are neat        |$1
@@ -439,7 +472,7 @@ zebra stripes |are neat        |$1
 ```
 
 左对齐 | 居中  | 右对齐
-:--- |:---: |---: |
+:--- |:---: |---: 
 col 3 is      |some wordy text |$1600
 col 2 is      |centered        |$12
 zebra stripes |are neat        |$1
@@ -462,6 +495,7 @@ zebra stripes |are neat        |$1
 
 ### 混合其他语法
 表格单元中的内容可以和其他大多数GFM语法配合使用，如：  
+
 #### 使用普通文本的删除线，斜体等效果
 
 | 名字 | 描述 |
@@ -477,7 +511,7 @@ zebra stripes |are neat        |$1
 |![baidu][baidu-logo] | 百度|
 
 表情
-----------
+--
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
 比如`:blush:`，可以显示:blush:。
@@ -487,7 +521,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 但是这个网页每次都打开**奇慢**。所以我整理到了本repo中，大家可以直接在此查看[emoji 表情](./emoji.md)。
 
 diff语法
----------
+--
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
 #### 语法
@@ -496,6 +530,12 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 另外还有有 `!`和`#`的语法。
 
 #### 效果
+```text
++ 人闲桂花落，
+- 夜静春山空。
+! 月出惊山鸟，
+# 时鸣春涧中。
+```
 
 ```diff
 + 人闲桂花落，
@@ -506,7 +546,7 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 
 details折叠语法
 --
-</summary>与下面的内容要空一行
+`</summary>` 与下面的内容要空一行
 
 ```text
 <details>
@@ -534,7 +574,8 @@ details折叠语法
 1. 第七回 比武招亲
 </details>
 
-## 注释
+注释
+--
 * html块注释
 ```text
 <!--
@@ -554,7 +595,8 @@ details折叠语法
 
 [//]:#(注释内容...)
 
-## 其他
+其他
+--
 * 目前github暂时不支持markdown流程控制语法
 * 上标
 ```text
