@@ -599,16 +599,16 @@ details折叠语法
 --
 * 目前github暂时不支持markdown流程控制语法
 * 上标
-```text
-2<sup>3</sub>
-```
-2<sup>3</sub>
+    ```text
+    2<sup>3</sub>
+    ```
+    2<sup>3</sub>
 
 * 下标
-```text
-H<sub>2</sub>O
-```
-H<sub>2</sub>O
+    ```text
+    H<sub>2</sub>O
+    ```
+    H<sub>2</sub>O
 
 
 --------------------------------
