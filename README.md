@@ -10,7 +10,10 @@ permalink: /help/dns/
 
 README
 ==
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+该文件用来测试和展示书写README的各种markdown语法。  
+GitHub的markdown语法在标准的markdown语法基础上做了扩充，  
+称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，  
+除了README文件外，issues和wiki均支持markdown语法。
 
 ****
 	
@@ -60,7 +63,13 @@ E-mail |Jelly.K.Wang@qq.com
 
 横线
 --
-***、---、___可以显示横线效果
+```text
+***
+---
+___
+
+```
+都表示横线，效果是一样的，可以写把*、-、_ 重复三次以上
 
 ***
 ---
@@ -95,26 +104,46 @@ ___
 ==
 ```
 
-一级标题=表示法
+一级标题==表示法
 ==
 
-* 二级标题横线表示法
+```text
+一级标题==表示法
+==
 
-下面的-至少两个，可以写多个
+物价于
+
+# 一级标题==表示法
+```
+前一种写法一般用于文件的第一行写大标题
+
+
+* 二级标题--表示法
+
+下面的-至少两个，可以写两个以上
 ```text
 我是二级标题
 --
 ```
 
-我是二级标题
+二级标题--表示法
 --
+
+```text
+二级标题--表示法
+--
+
+特价于
+
+## 二级标题--表示法
+```
 
 
 文本
 --
 
 ### 普通文本
-这是一段普通的文本
+这是一段普通的文本，直接写，开头顶格
 
 ### 单行文本
     Hello,大家好，我是果冻虾仁。
@@ -129,7 +158,7 @@ ___
     祝您，早上好，中午好，下午好，晚安
 
 #### 语法2
-使用一对各三个的反引号：
+文本首、尾各3个反引号：
 ```
 欢迎到访
 我是C++码农
@@ -138,7 +167,7 @@ ___
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
 
 ### 文字高亮
-文字高亮功能能使行内部分文字高亮，使用一对反引号，还可以用于避免转义  
+文字高亮功能能使行内部分文字高亮，使用一对反引号，还可以避免转义  
 语法：
 ```
 `linux` `网络编程` `socket` `epoll` 
@@ -149,10 +178,10 @@ ___
 
 #### 换行
 直接回车不能换行  
-* 可以在上一行文本后面补两个空格，  
+* 可以在上一行文本后面加两个空格，  
 这样下一行的文本就换行了。
 
-* 或者就是在两行文本直接加一个空行，
+* 或者在两行之间加一个空行，
 
 也能实现换行效果，不过这个行间距有点大。
 
@@ -169,6 +198,8 @@ ___
 |`___斜粗体2___`|___斜粗体2___|
 |`***~~斜粗体删除线1~~***`|***~~斜粗体删除线1~~***|
 |`~~***斜粗体删除线2***~~`|~~***斜粗体删除线2***~~|
+|`___~~斜粗体删除线3~~___`|___~~斜粗体删除线3~~___|
+|`~~___斜粗体删除线4___~~`|~~___斜粗体删除线4___~~|
 
     斜体、粗体、删除线可混合使用
 
@@ -182,17 +213,18 @@ alt和title即对应HTML中的alt和title属性（都可省略）：
 - alt表示图片显示失败时的替换文本
 - title表示鼠标悬停在图片时的显示文本（注意这里要加引号）
 
-URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
+URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，  
+如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
 ```
 https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
 
-|#|语法|效果|
-|---|---|----
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|2|`![][code-past]`|![][code-past]
+|# |语法 |效果 |
+|--- |--- |--- |
+|1 |`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")` |![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") |
+|2 |`![][code-past]` |![][code-past] |
 
-注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
+注意例2的写法使用了**URL变量**的形式，在[链接](#链接)一节有介绍。
 >在文末有code-past的定义：
 ```
 [code-past]:https://img-blog.csdnimg.cn/201908060004034.png
@@ -202,17 +234,17 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 --
 ### 链接外部URL
 
-|#|语法|效果|
-|---|----|-----|
-|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
-|2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
+|# |语法 |效果 |
+|--- |--- |--- |
+|1 |`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")` |[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示") |
+|2 |`[我的知乎][zhihu] ` |[我的知乎][zhihu] |
 
 语法2由两部分组成：
-- 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
+- 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），URL变量上下对应就行了（**姑且称之为URL变量**）
 - 第二部分标记实际URL。
 
 >使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。
->>URL标识符是我起的名字，不知道是否准确。囧。。
+>>URL变量是我起的名字，不知道是否准确。囧。。
 
 ### 链接本仓库里的URL
 
@@ -226,14 +258,14 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。
 
 |#|语法|效果|
-|---|----|:---:|
+|---|---|:---:|
 |1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
 |2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
 |3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
 
 因为图片本身和链接本身都支持URL标识符的形式，所以图片链接也可以很简洁（见例3）。  
 注意，此时鼠标悬停时显示的文字是图片的title，而非链接本身的title了。
-> 本文URL标识符都放置于文末
+>本文URL变量都放置于文末
 
 ### 锚点
 其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们  
@@ -410,6 +442,28 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ### 语法
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
 
+```text
+```Java
+public static void main(String[]args){} //Java
+&#96;&#96;&#96;
+
+```c
+int main(int argc, char *argv[]) //C
+&#96;&#96;&#96;
+
+```Bash
+echo "hello GitHub" #Bash
+&#96;&#96;&#96;
+
+```javascript
+document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+&#96;&#96;&#96;
+
+```cpp
+string &operator+(const string& A,const string& B) //cpp
+&#96;&#96;&#96;
+```
+
 ### 效果
 ```Java
 public static void main(String[]args){} //Java
@@ -433,28 +487,28 @@ string &operator+(const string& A,const string& B) //cpp
 
 表格
 --
-表头上面一行为文本，需要在文本与表头之间空一行
+注意：表头上面一行为文本块时，需要在文本块与表头之间空一行
 
 ```text
-|表头1  |表头2 |
+|表头1 |表头2 |
 |--- |--- |
-|表格单元  |表格单元 |
-|表格单元  |表格单元 |
+|表格单元 |表格单元 |
+|表格单元 |表格单元 |
 ```
 
-|表头1  |表头2 |
+|表头1 |表头2 |
 |--- |--- |
-|表格单元  |表格单元 |
-|表格单元  |表格单元 |
+|表格单元 |表格单元 |
+|表格单元 |表格单元 |
 
 
 ```text
-表头1  |表头2
+表头1 |表头2
 --- | ---
 表格单元 |表格单元
 表格单元 |表格单元
 ```
-表头1  |表头2
+表头1 |表头2
 --- | ---
 表格单元 |表格单元
 表格单元 |表格单元
@@ -522,7 +576,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 
 diff语法
 --
-版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
+版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。  
 GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
 #### 语法
 其语法与代码高亮类似，只是在三个反引号后面写diff，
@@ -598,6 +652,8 @@ details折叠语法
 其他
 --
 * 目前github暂时不支持markdown流程控制语法
+* 目前github暂时不支持css语法
+* 目前github不支持文本块行号显示
 * 上标
     ```text
     2<sup>3</sub>
@@ -612,6 +668,12 @@ details折叠语法
 
 
 --------------------------------
+<!--
+定义URL变量(URL标识)，方便上文引用
+
+定义位置：可以是文档的任意位置，建议放在文末
+变量名：支持数字、字母、-、_、中文的组合
+-->
 [csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
 [zhihu]:https://www.zhihu.com/people/jellywong "我的知乎，欢迎关注"
 [weibo]:http://weibo.com/linpiaochen
