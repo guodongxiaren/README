@@ -8,11 +8,13 @@ permalink: /help/dns/
     - "2222"
 ---
 
-README
+Gigthub markdown语法
 ==
+
+
 该文件用来测试和展示书写README的各种markdown语法。  
 GitHub的markdown语法在标准的markdown语法基础上做了扩充，  
-称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，  
+称之为`GitHub Flavored Markdown`，简称`GFM`。GFM在GitHub上有广泛应用，  
 除了README文件外，issues和wiki均支持markdown语法。
 
 ****
@@ -24,6 +26,7 @@ E-mail |Jelly.K.Wang@qq.com
 
 ****
 ## 目录
+* [规范](#规范)
 * [横线](#横线)
 * [标题](#标题)
 * [文本](#文本)
@@ -61,6 +64,23 @@ E-mail |Jelly.K.Wang@qq.com
     * 上标
     * 下标
 
+
+
+规范
+--
+
+### 文件后缀
+建议使用.md
+
+### 字符集
+建议使用UTF-8
+
+### 换行符
+建议使用LF，unix系统风格的换行符
+
+### 默认规定
+* README.md文件会被 github、gitlab等版本控制系统自动展示
+
 横线
 --
 ```text
@@ -74,7 +94,6 @@ ___
 ***
 ---
 ___
-
 
 
 标题
