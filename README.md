@@ -6,9 +6,8 @@ README
 	
 |Author|果冻虾仁|
 |---|---
-|E-mail|Jelly.K.Wang@qq.com
 |知乎|[![zhihu-shield]][zhihu]
-
+|公众号|编程往事
 
 
 ****
