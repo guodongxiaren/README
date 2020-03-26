@@ -80,7 +80,7 @@
 |[CSDN][csdn]
 
 另外最近在玩公众号，欢迎点赞、关注，分享，转发
-![](/img/codepast-banner.jpg)
+![](/img/codepast-banner.png)
 
 *******************
 [csdn]:http://blog.csdn.net/guodongxiaren
