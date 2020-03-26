@@ -7,8 +7,8 @@ README
 |Author|果冻虾仁|
 |---|---
 |E-mail|Jelly.K.Wang@qq.com
+|知乎|[![zhihu-shield]][zhihu]
 
-![][zhihu-shield]
 
 
 ****
@@ -143,7 +143,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
 >在文末有code-past的定义：
 ```
-[code-past]:https://img-blog.csdnimg.cn/201908060004034.png
+[code-past]:/img/codepast-logo.jpg "公众号：编程往事"
 ```
 
 链接
@@ -396,5 +396,5 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 [weibo-logo]:/img/weibo.png "点击图片进入我的微博"
 [csdn-logo]:/img/csdn.png "我的CSDN博客"
-[code-past]:https://img-blog.csdnimg.cn/201908060004034.png
+[code-past]:/img/codepast-logo.jpg "公众号：编程往事"
 [zhihu-shield]:https://img.shields.io/badge/dynamic/json?color=0084ff&logo=zhihu&label=%E6%9E%9C%E5%86%BB%E8%99%BE%E4%BB%81&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dguodongxiaren
