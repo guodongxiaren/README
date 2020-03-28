@@ -4,7 +4,7 @@ README
 
 ****
 	
-|Author|果冻虾仁|
+|作者|果冻虾仁|
 |---|---
 |知乎|[![zhihu-shield]][zhihu]
 |公众号|编程往事
