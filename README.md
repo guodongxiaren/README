@@ -1,8 +1,6 @@
 README
 ===========================
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://badges.gitter.im/guodongxiaren/README.svg)](https://gitter.im/guodongxiaren/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 
 ****
@@ -44,6 +42,9 @@ README
 * [表格](#表格) 
 * [表情](#表情)
 * [diff语法](#diff语法)
+* [其他](#其他)
+    * [徽章](#徽章)
+    * [star历史](#star历史)
 
 ### 横线
 -----------
@@ -390,6 +391,30 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 ! 月出惊山鸟，
 # 时鸣春涧中。
 ```
+
+其他
+---------
+还有一些非markdown语法，但是在README文件中也很实用的组件。
+## 徽章
+绘制徽章，首选就是[shields.io](https://shields.io/)  具体语法去官网探索。
+
+![LICENSE](https://img.shields.io/badge/license-MIT-green)
+![Author](https://img.shields.io/badge/Author-guodongxiaren-blue.svg)
+![zhihu-shield]
+
+其次有些第三方平台也提供方便的徽章，比如gitter：
+
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://badges.gitter.im/guodongxiaren/README.svg)](https://gitter.im/guodongxiaren/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+## star历史
+star历史可以使用这个网站[star-history.com](https://star-history.com/)
+```
+[![Star History Chart](https://api.star-history.com/svg?repos=guodongxiaren/README&type=Date)](https://star-history.com/#guodongxiaren/README&Date)
+```
+这段代码的显示效果如下：
+
+[![Star History Chart](https://api.star-history.com/svg?repos=guodongxiaren/README&type=Date)](https://star-history.com/#guodongxiaren/README&Date)
+
 
 --------------------------------
 [csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
