@@ -57,8 +57,16 @@ ___
 
 
 
-标题
-------
+## 标题
+```
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+```
+效果如下：
 
 # 一级标题
 ## 二级标题
@@ -68,8 +76,7 @@ ___
 ###### 六级标题
 
 
-文本
-------
+## 文本
 ### 普通文本
 这是一段普通的文本
 ### 单行文本
@@ -124,8 +131,7 @@ ___
 
     斜体、粗体、删除线可混合使用
 
-图片
-------
+## 图片
 基本格式：
 ```
 ![alt](URL title)
@@ -150,8 +156,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 [code-past]:/img/codepast-logo.jpg "公众号：编程往事"
 ```
 
-链接
-------
+## 链接
 ### 链接外部URL
 
 |#|语法|效果|
@@ -305,8 +310,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>>> 平衡二叉树
 >>>>> 满二叉树
 
-代码高亮
-----------
+## 代码高亮
 
 ### 语法
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
@@ -327,8 +331,7 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
-表格
---------
+## 表格
 
 表头1  | 表头2|
 --------- | --------|
@@ -393,8 +396,7 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 # 时鸣春涧中。
 ```
 
-居中效果
----
+### 居中效果
 
 很多地方都会用到居中的效果，比如如下内容将会把一个表格在页面中居中展示：
 
@@ -420,10 +422,9 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 
 其他任意需要居中展示的语法，都可以放在其中。
 
-其他
----------
+## 其他
 还有一些非markdown语法，但是在README文件中也很实用的组件。
-## 徽章
+### 徽章
 绘制徽章，首选就是[shields.io](https://shields.io/)  具体语法去官网探索。
 
 ![LICENSE](https://img.shields.io/badge/license-MIT-green)
@@ -434,7 +435,7 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://badges.gitter.im/guodongxiaren/README.svg)](https://gitter.im/guodongxiaren/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## star历史
+### star历史
 star历史可以使用这个网站[star-history.com](https://star-history.com/)
 ```
 [![Star History Chart](https://api.star-history.com/svg?repos=guodongxiaren/README&type=Date)](https://star-history.com/#guodongxiaren/README&Date)
