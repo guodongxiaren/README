@@ -368,8 +368,7 @@ string &operator+(const string& A,const string& B) //cpp
 | ---- | ---- |
 |![baidu][baidu-logo] | 百度|
 
-表情
-----------
+## 表情
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
 比如`:blush:`，可以显示:blush:。
@@ -378,8 +377,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 
 但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 
-diff语法
----------
+## diff语法
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
 #### 语法
@@ -395,6 +393,27 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 ! 月出惊山鸟，
 # 时鸣春涧中。
 ```
+## HTML语法
+markdown是支持HTML语法的，虽然不鼓励大量使用HTML语法，毕竟那样就丧失了markdown的意义，但是有一些HTML语法在写README的时候是很少的补充。
+### 折叠
+```
+<details>
+<summary>Linux环境</summary>
+
+##### 编译方法
+xxxx
+</details>
+```
+<details>
+<summary>Linux环境</summary>
+
+##### 编译
+xxxx
+
+##### 安装
+xxxx
+
+</details>
 
 ### 居中效果
 
