@@ -1,57 +1,58 @@
 README
 ===========================
 
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+Este arquivo é usado para testar e exibir várias sintaxes de remarcação para escrever o README。A sintaxe de markdown do GitHub está no padrão markdown Estendido gramaticalmente，chame-o`GitHub Flavored Markdown`。Abreviação`GFM`，O GFM é amplamente usado no GitHub，Exceto para arquivos README, ambos os problemas e a sintaxe de marcação de suporte do wiki.
 
 ****
 
-|作者|果冻虾仁|
+
+|Autor|Camarão Jelly|
 |---|---
-|知乎|[![zhihu-shield]][zhihu]
-|公众号|编程往事
+|Saber|[![zhihu-escudo]][zhihu]
+|Conta pública|Histórico de programação
 
 
 ****
-## 目录
-* [横线](#横线)
-* [标题](#标题)
-* [文本](#文本)
-    * 普通文本
-    * 单行文本
-    * 多行文本
-    * 文字高亮
-    * 换行
-    * 斜体
-    * 粗体
-    * 删除线
-* [图片](#图片)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
-* [链接](#链接)
-    * 文字超链接
-        *  链接外部URL
-        *  链接本仓库里的URL
-    *  锚点
-    * [图片链接](#图片链接)
-* [列表](#列表)
-    * 无序列表
-    * 有序列表
-    * 复选框列表
-* [块引用](#块引用)
-* [代码高亮](#代码高亮)
-* [表格](#表格)
-* [表情](#表情)
-* [diff语法](#diff语法)
-* [常用HTML语法](#常用HTML语法)
-    * [折叠](#折叠)
-    * [居中](#居中)
-* [其他](#其他)
-    * [徽章](#徽章)
-    * [star历史](#star历史)
+## Índice
+* [linha horizontal](#linha horizontal)
+* [título](#título)
+* [texto](#texto)
+    *texto normal
+    * texto de linha única
+    * Texto multilinha
+    * destaque de texto
+    * nova linha
+    * itálico
+    * negrito
+    * tachado
+* [Imagem] [imagem)
+    *Fotos da Internet
+    * Imagem do repositório GitHub
+* [link](#link)
+    * hiperlink de texto
+        * link URL externo
+        * Link para a URL neste repositório
+    * ponto de ancoragem
+    * [link da imagem](#link da imagem)
+* [lista](#lista)
+    * lista não ordenada
+    * lista ordenada
+    * lista de caixas de seleção
+* [blockquote](#blockquote)
+* [destaque de código](#destaque de código)
+* [tabela](#tabela)
+* [expressão](#expressão)
+* [sintaxe do diferencial](#sintaxe do diferencial)
+* [Sintaxe HTML comum](#Sintaxe HTML comum)
+    * [dobrar](#dobrar)
+    * [centralizado](#centralizado)
+* [outro](#outro)
+    * [crachá](#crachá)
+    * [histórico das estrelas] (#histórico das estrelas)
 
-### 横线
+### Linha horizontal
 -----------
-***、---、___可以显示横线效果
+***, ---, ___ pode exibir efeito de linha horizontal
 
 ***
 ---
@@ -59,265 +60,264 @@ ___
 
 
 
-## 标题
+## título
 ```
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
+# Título de nível 1
+## Título de segundo nível
+### Título de nível 3
+#### Títulos de nível 4
+##### Título de Nível 5
+###### Nível 6 Cabeçalho
 ```
-效果如下：
+O efeito é o seguinte:
 
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
+# Título de nível 1
+## Título de segundo nível
+### Título de nível 3
+#### Títulos de nível 4
+##### Título de Nível 5
+###### Nível 6 Cabeçalho
 
 
-## 文本
-### 普通文本
-这是一段普通的文本
-### 单行文本
-    Hello,大家好，我是果冻虾仁。
-在一行开头加入1个Tab或者4个空格。
-### 文本块
-#### 语法1
-在连续几行的文本开头加入1个Tab或者4个空格。
+## texto
+### texto simples
+Este é um texto normal
+### Texto de linha única
+    Olá a todos, sou Jelly Shrimp.
+Adicione 1 tabulação ou 4 espaços no início de uma linha.
+### blocos de texto
+#### Sintaxe 1
+Adicione 1 tabulação ou 4 espaços no início de várias linhas consecutivas de texto.
+bem-vindo a visitar
+    prazer em conhecê-la
+    Desejo-lhe bom dia, bom meio-dia, boa tarde e boa noite
 
-    欢迎到访
-    很高兴见到您
-    祝您，早上好，中午好，下午好，晚安
-
-#### 语法2
-使用一对各三个的反引号：
+#### Sintaxe 2
+Use um par de três acentos graves:
 ```
-欢迎到访
-我是C++码农
-你可以在知乎、CSDN、简书搜索【果冻虾仁】找到我
+bem-vindo a visitar
+Eu sou um codificador C++
+Você pode pesquisar [Jelly Shrimp] em Zhihu, CSDN e Jianshu para me encontrar
 ```
-该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
-### 文字高亮
-文字高亮功能能使行内部分文字高亮，使用一对反引号。
-语法：
+Essa sintaxe também pode obter realce de código, consulte [destaque de código](#destaque de código)
+### destaque de texto
+A função de destaque de texto pode destacar parte do texto na linha, usando um par de acentos graves.
+gramática:
 ```
-`linux` `网络编程` `socket` `epoll`
+`linux` `programação de rede` `socket` `epoll`
 ```
-效果：`linux` `网络编程` `socket` `epoll`
+Efeito: `linux` `programação de rede` `socket` `epoll`
 
-也适合做一篇文章的tag
-#### 换行
-直接回车不能换行，
-可以在上一行文本后面补两个空格，
-这样下一行的文本就换行了。
+Também adequado como tag para um artigo
+#### Nova linha
+O retorno de carro direto não pode mudar de linha,
+Você pode adicionar dois espaços após a linha de texto anterior,
+Isso irá quebrar o texto na próxima linha.
 
-或者就是在两行文本直接加一个空行。
+Ou apenas adicione uma linha em branco diretamente entre as duas linhas de texto.
 
-也能实现换行效果，不过这个行间距有点大。
-#### 斜体、粗体、删除线
+O efeito de quebra de linha também pode ser obtido, mas o espaçamento entre linhas é um pouco grande.
+#### itálico, negrito, tachado
 
-|语法|效果|
+|Sintaxe|Efeito|
 |----|-----|
-|`*斜体1*`|*斜体1*|
-|`_斜体2_`| _斜体2_|
-|`**粗体1**`|**粗体1**|
-|`__粗体2__`|__粗体2__|
-|`这是一个 ~~删除线~~`|这是一个 ~~删除线~~|
-|`***斜粗体1***`|***斜粗体1***|
-|`___斜粗体2___`|___斜粗体2___|
-|`***~~斜粗体删除线1~~***`|***~~斜粗体删除线1~~***|
-|`~~***斜粗体删除线2***~~`|~~***斜粗体删除线2***~~|
+|`*Itálico 1*`|*Itálico 1*|
+|`_Itálico 2_`| _Itálico 2_|
+|`**Negrito 1**`|**Negrito 1**|
+|`__bold 2__`|__bold 2__|
+|`Este é um ~~riscado~~`|Este é um ~~riscado~~|
+|`***Itálico Negrito 1***`|***Itálico Negrito 1***|
+|`___Itálico Negrito 2___`|___Itálico Negrito 2___|
+|`***~~Itálico Negrito Riscado 1~~***`|***~~Itálico Negrito Riscado 1~~***|
+|`~~***Itálico negrito tachado 2***~~`|~~***Itálico negrito tachado 2***~~|
 
-    斜体、粗体、删除线可混合使用
+    Itálico, negrito, tachado podem ser misturados
 
-## 图片
-基本格式：
+## foto
+Formato básico:
 ```
-![alt](URL title)
+![alt](título do URL)
 ```
-alt和title即对应HTML中的alt和title属性（都可省略）：
-- alt表示图片显示失败时的替换文本
-- title表示鼠标悬停在图片时的显示文本（注意这里要加引号）
+alt e title correspondem aos atributos alt e title em HTML (ambos podem ser omitidos):
+- alt indica o texto de substituição quando a exibição da imagem falha
+- título indica o texto de exibição quando o mouse passa sobre a imagem (observe que as aspas são necessárias aqui)
 
-URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
+URL é o endereço url da imagem. Se você se referir à imagem neste depósito, pode usar diretamente **caminho relativo**. Se você se referir à imagem em outros depósitos do github, preste atenção ao formato, que é: `endereço do armazém/bruto/nome da filial/caminho da imagem`, como:
 ```
 https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
 
-|#|语法|效果|
+|#|Sintaxe|Efeito|
 |---|---|----
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|2|`![][code-past]`|![][code-past]
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "Logotipo do Baidu")`|![baidu](http://www.baidu.com/img/bdlogo. gif "logotipo Baidu")
+|2|`![][código-past]`|![][código-past]
 
-注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
->在文末有code-past的定义：
+Observe que o método de escrita do Exemplo 2 usa a forma de **identificador de URL**, que é apresentado na seção [Link](#Link).
+> Há uma definição de code-past no final do artigo:
 ```
-[code-past]:/img/codepast-logo.jpg "公众号：编程往事"
+[code-past]:/img/codepast-logo.jpg "Conta Oficial: Programação Passada"
 ```
 
-## 链接
-### 链接外部URL
+## Link
+### URL externo do link
 
-|#|语法|效果|
+|#|Sintaxe|Efeito|
 |---|----|-----|
-|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
-|2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
+|1|`[Meu blog](http://blog.csdn.net/guodongxiaren "Hover Display")`|[Meu blog](http://blog.csdn.net/guodongxiaren "Hover Display")|
+|2|`[Meu Zhihu][zhihu] `|[Meu Zhihu][zhihu]|
 
-语法2由两部分组成：
-- 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
-- 第二部分标记实际URL。
+A sintaxe 2 consiste em duas partes:
+- A primeira parte usa dois colchetes. O identificador em [ ] (zhihu neste exemplo) pode ser uma combinação de números, letras, etc., e os identificadores superior e inferior precisam corresponder (**vamos chamá-lo de identificador de URL* *)
+- A segunda parte marca o URL real.
 
->使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。除了干净之外，它还能达到复用的目的，比如你在多个地方想使用同一个链接，那么文内使用标识符，只在最底部给标识符定义出实际的URL链接即可，类似编程语言中的变量。
->>URL标识符是我起的名字，不知道是否准确。囧。。
+>O uso de identificadores de URL pode atingir o objetivo de reutilização.Geralmente, todos os identificadores de URL no texto completo são colocados no final do artigo, o que parece mais limpo. Além de ser limpo, também pode atingir o objetivo de reutilização. Por exemplo, se você deseja usar o mesmo link em vários lugares, use o identificador no texto e defina apenas o link de URL real para o identificador no inferior, semelhante a Variáveis ​​em linguagens de programação.
+>> O identificador de URL é meu nome, não sei se é preciso. Ops. .
 
-### 链接本仓库里的URL
+### Link para a URL neste repositório
 
-|语法|效果|
+|Sintaxe|Efeito|
 |----|-----|
-|`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
-|`[example](./example)`|[example](./example)|
+|`[Meu perfil](/exemplo/profile.md)`|[Meu perfil](/exemplo/profile.md)|
+|`[exemplo](./exemplo)`|[exemplo](./exemplo)|
 
-### 图片链接
-给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。
-直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。
+### link da imagem
+A essência de vincular imagens é misturar a sintaxe de exibição de imagem com a sintaxe de link normal. Em um link normal, dentro de [ ] está o texto a ser exibido no link, enquanto em um link de imagem [ ] está a imagem a ser exibida.
+É claro que é possível misturar diretamente as duas sintaxes, mas é muito detalhado, então podemos usar a forma de identificadores de URL.
 
-|#|语法|效果|
+|#|Sintaxe|Efeito|
 |---|----|:---:|
 |1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
-|2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
+|2|`[![](/img/zhihu.png "Meu Zhihu, bem-vindo a seguir")][zhihu]`|[![](/img/zhihu.png "Meu Zhihu, bem-vindo a seguir ") ][zhihu]|
 |3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
 
-因为图片本身和链接本身都支持URL标识符的形式，所以图片链接也可以很简洁（见例3）。
-注意，此时鼠标悬停时显示的文字是图片的title，而非链接本身的title了。
-> 本文URL标识符都放置于文末
+Como a própria imagem e o próprio link suportam a forma de identificadores de URL, os links de imagem também podem ser concisos (consulte o Exemplo 3).
+Observe que o texto exibido quando o mouse passa é o título da imagem, não o título do link em si.
+> Os identificadores de URL deste artigo são colocados no final do artigo
 
-### 锚点
-其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们
+### Âncora
+Na verdade, cada título é um ponto de ancoragem, que é semelhante ao ponto de ancoragem (`#`) em HTML. Por exemplo, nós
 
-|语法|效果|
+|Sintaxe|Efeito|
 |---|---|
-|`[回到顶部](#readme)`|[回到顶部](#readme)|
+|`[voltar ao início](#readme)`|[voltar ao início](#readme)|
 
-不过要注意，标题中的英文字母都被转化为**小写字母**了。
-> 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
+Observe, no entanto, que as letras em inglês no título foram convertidas em **letras minúsculas**.
+> No passado, o GitHub não suportava bem o chinês, então o título chinês não podia ser reconhecido corretamente como um ponto de ancoragem, mas agora não há problema!
 
-## 列表
-### 无序列表
-#### 语法
+## Lista
+### Lista não ordenada
+#### gramática
 ```
-* 昵称：果冻虾仁
-- 别名：隔壁老王
-* 英文名：Jelly
+* Apelido: Jelly Shrimp
+- Alias: Faraó ao lado
+* Nome em inglês: Jelly
 ```
-#### 效果
-* 昵称：果冻虾仁
-- 别名：隔壁老王
-* 英文名：Jelly
+#### Efeito
+* Apelido: Jelly Shrimp
+- Alias: Faraó ao lado
+* Nome em inglês: Jelly
 
-### 多级无序列表
-#### 语法
+### Lista não ordenada de vários níveis
+#### gramática
 ```
-* 编程语言
-    * 脚本语言
-        * Python
+* Linguagem de programação
+    * linguagem de script
+        *Pitão
 ```
-#### 效果
-* 编程语言
-    * 脚本语言
-        * Python
+#### Efeito
+* Linguagem de programação
+    * linguagem de script
+        *Pitão
 
-### 一级有序列表
-#### 语法
-就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。
+### Lista ordenada nível 1
+#### gramática
+Basta adicionar um ponto e um espaço após o número. Pode não ser óbvio o suficiente, no entanto.
 ```
-面向对象的三个基本特征：
+Três características básicas da orientação a objetos:
 
-1. 封装
-2. 继承
-3. 多态
-```
-
-#### 效果
-面向对象的三个基本特征：
-
-1. 封装
-2. 继承
-3. 多态
-
-
-### 多级有序列表
-和无序列表一样，有序列表也有多级结构。
-#### 语法
-```
-1. 这是一级的有序列表，数字1还是1
-   1. 这是二级的有序列表，阿拉伯数字在显示的时候变成了罗马数字
-      1. 这是三级的有序列表，数字在显示的时候变成了英文字母
+1. Embalagem
+2. Herança
+3. Polimorfismo
 ```
 
-#### 效果
+#### Efeito
+Três características básicas da orientação a objetos:
 
-1. 这是一级的有序列表，数字1还是1
-   1. 这是二级的有序列表，阿拉伯数字在显示的时候变成了罗马数字
-      1. 这是三级的有序列表，数字在显示的时候变成了英文字母
+1. Embalagem
+2. Herança
+3. Polimorfismo
 
 
-### 复选框列表
-#### 语法
+### Lista ordenada de vários níveis
+Assim como as listas não ordenadas, as listas ordenadas também possuem uma estrutura de vários níveis.
+#### gramática
 ```
-- [x] 需求分析
-- [x] 系统设计
-- [x] 详细设计
-- [ ] 编码
-- [ ] 测试
-- [ ] 交付
+1. Esta é uma lista ordenada de primeiro nível, o número 1 ainda é 1
+   1. Esta é uma lista ordenada de segundo nível e os algarismos arábicos são exibidos como algarismos romanos
+      1. Esta é uma lista ordenada de três níveis e os números são alterados para letras em inglês quando exibidos
 ```
-#### 效果
 
-- [x] 需求分析
-- [x] 系统设计
-- [x] 详细设计
-- [ ] 编码
-- [ ] 测试
-- [ ] 交付
+#### Efeito
 
-您可以使用这个功能来标注某个项目各项任务的完成情况。
-> Tip:
->> 在GitHub的**issue**中使用该语法是可以实时点击复选框来勾选或解除勾选的，而无需修改issue原文。
+1. Esta é uma lista ordenada de primeiro nível, o número 1 ainda é 1
+   1. Esta é uma lista ordenada de segundo nível e os algarismos arábicos são exibidos como algarismos romanos
+      1. Esta é uma lista ordenada de três níveis e os números são alterados para letras em inglês quando exibidos
 
-## 块引用
 
-### 常用于引用文本
-#### 文本摘自《深入理解计算机系统》P27
-　令人吃惊的是，在哪种字节顺序是合适的这个问题上，人们表现得非常情绪化。实际上术语“little endian”（小端）和“big endian”（大端）出自Jonathan Swift的《格利佛游记》一书，其中交战的两个派别无法就应该从哪一端打开一个半熟的鸡蛋达成一致。因此，争论沦为关于社会政治的争论。只要选择了一种规则并且始终如一的坚持，其实对于哪种字节排序的选择都是任意的。
-> **“端”（endian）的起源**
-以下是Jonathan Swift在1726年关于大小端之争历史的描述：
-“……下面我要告诉你的是，Lilliput和Blefuscu这两大强国在过去36个月里一直在苦战。战争开始是由于以下的原因：我们大家都认为，吃鸡蛋前，原始的方法是打破鸡蛋较大的一端，可是当今的皇帝的祖父小时候吃鸡蛋，一次按古法打鸡蛋时碰巧将一个手指弄破了，因此他的父亲，当时的皇帝，就下了一道敕令，命令全体臣民吃鸡蛋时打破较小的一端，违令者重罚。”
-
-### 块引用有多级结构
-#### 语法
+### lista de caixas de seleção
+#### gramática
 ```
-> 数据结构
->> 树
->>> 二叉树
->>>> 平衡二叉树
->>>>> 满二叉树
+- [x] Análise de Requisitos
+- [x] Projeto do Sistema
+- [x] Projeto detalhado
+- [ ] codificação
+- [ ] teste
+- [ ] Entrega
 ```
-#### 效果
-> 数据结构
->> 树
->>> 二叉树
->>>> 平衡二叉树
->>>>> 满二叉树
+#### Efeito
 
-## 代码高亮
+- [x] Análise de Requisitos
+- [x] Projeto do Sistema
+- [x] Projeto detalhado
+- [ ] codificação
+- [ ] teste
+- [ ] Entrega
 
-### 语法
-在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
+Você pode usar esse recurso para marcar a conclusão das tarefas de um projeto.
+> Dica:
+>> Usar esta sintaxe no **problema** do GitHub pode clicar na caixa de seleção para marcá-la ou desmarcá-la em tempo real sem modificar o texto original do problema.
 
-### 效果
+## bloco de citação
+
+### Frequentemente usado para citar texto
+#### O texto foi extraído de "In-depth Understanding of Computer Systems" P27
+É incrível como as pessoas são emotivas sobre qual endianidade é apropriada. Os termos "little endian" e "big endian" vêm do livro de Jonathan Swift, Gulliver's Travels, onde duas facções em guerra não conseguem decidir de qual lado quebrar um ovo cozido. O debate, portanto, degenera em uma discussão sobre sociopolítica. Desde que uma regra seja escolhida e respeitada de forma consistente, a escolha da ordem de bytes é na verdade arbitrária.
+> **Origem de "endian"**
+Aqui está a descrição de Jonathan Swift da história da disputa endianness em 1726:
+"... A próxima coisa que quero dizer é que as duas grandes potências Lilliput e Blefuscu têm lutado amargamente nos últimos 36 meses. A guerra começou pelo seguinte motivo: todos nós acreditamos que antes de comer ovos, a maneira primitiva é quebrar a ponta maior do ovo, mas o avô do atual imperador comeu ovos quando era criança e quebrou um dedo ao quebrar os ovos de acordo com o método antigo, então seu pai, o imperador da época , emitiu um decreto ordenando que todos os indivíduos comessem ovos. Quebre a ponta menor do ovo e os infratores serão multados pesadamente.
+
+### Blockquotes têm vários níveis
+#### gramática
+```
+> Estrutura de Dados
+>> árvore
+>>> Árvore binária
+>>>> árvore binária balanceada
+>>>>> árvore binária completa
+```
+#### Efeito
+> Estrutura de Dados
+>> árvore
+>>> Árvore binária
+>>>> árvore binária balanceada
+>>>>> árvore binária completa
+
+## realce de código
+
+### gramática
+Adicione o nome da linguagem de programação após os três acentos graves, comece a escrever o código em uma nova linha e adicione três acentos graves à última linha.
+
+### Efeito
 ```Java
 public static void main(String[]args){} //Java
 ```
@@ -325,156 +325,154 @@ public static void main(String[]args){} //Java
 int main(int argc, char *argv[]) //C
 ```
 ```Bash
-echo "hello GitHub" #Bash
+echo "olá GitHub" #Bash
 ```
 ```javascript
-document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+document.getElementById("myH1").innerHTML="Bem-vindo à minha página inicial"; //javascipt
 ```
 ```cpp
-string &operator+(const string& A,const string& B) //cpp
+string &operator+(const string& A, const string& B) //cpp
 ```
-## 表格
-
-表头1  | 表头2|
+## Folha
+Cabeçalho 1 | Cabeçalho 2 |
 --------- | --------|
-表格单元  | 表格单元 |
-表格单元  | 表格单元 |
+Células de tabela |Células de tabela |
+Células de tabela |Células de tabela |
 
-| 表头1  | 表头2|
+| Cabeçalho 1 | Cabeçalho 2 |
 | ---------- | -----------|
-| 表格单元   | 表格单元   |
-| 表格单元   | 表格单元   |
+| Células da Tabela | Células da Tabela |
+| Células da Tabela | Células da Tabela |
 
-### 对齐
-表格可以指定对齐方式
+### alinhamento
+As tabelas podem especificar o alinhamento
 
-| 左对齐 | 居中  | 右对齐 |
+| Alinhar à Esquerda | Centralizar | Alinhar à Direita |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| col 3 é | algum texto prolixo | $ 1600 |
+| col 2 é | centrado | $12 |
+| listras de zebra | são legais | $ 1 |
 
-### 混合其他语法
-表格单元中的内容可以和其他大多数GFM语法配合使用，如：
-#### 使用普通文本的删除线，斜体等效果
+### misturar outra sintaxe
+O conteúdo nas células da tabela pode ser usado com a maioria das outras sintaxes do GFM, como:
+#### Use tachado, itálico e outros efeitos de texto comum
 
-| 名字 | 描述 |
+| Nome | Descrição |
 | ------------- | ----------- |
-| Help      | ~~Display the~~ help window.|
-| Close     | _Closes_ a window     |
+|Ajuda |~~Mostra a~~ janela de ajuda.|
+| Fechar | _Fecha_ uma janela |
 
-#### 表格中嵌入图片（链接）
-其实前面介绍图片显示、图片链接的时候为了清晰就是放在在表格中显示的。
+#### Incorporar imagens (links) em tabelas
+Na verdade, quando introduzimos a exibição de imagem e os links de imagem anteriormente, eles foram exibidos na tabela para maior clareza.
 
-| 图片 | 描述 |
+|imagem |descrição |
 | ---- | ---- |
-|![baidu][baidu-logo] | 百度|
+|![baidu][baidu-logo] |Baidu|
 
-## 表情
-Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
+## expressão
+A sintaxe Markdown do Github suporta a adição de expressões emoji. Inserir diferentes códigos de símbolo (caracteres cercados por dois-pontos) pode exibir diferentes expressões.
 
-比如`:blush:`，可以显示:blush:。
+Por exemplo, `:blush:` pode exibir :blush:.
 
-具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
+Para o código do símbolo de cada emoticon, você pode verificar a página oficial do GitHub [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com).
 
-但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
+Mas esta página abre **extraordinariamente lenta** todas as vezes. . Então, organizei-o neste repositório e você pode visualizar diretamente [emoji](./emoji.md) aqui.
 
-## diff语法
-版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
-GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
-#### 语法
-其语法与代码高亮类似，只是在三个反引号后面写diff，
-并且其内容中，可以用 `+ `开头表示新增，`- `开头表示删除。
-另外还有有 `!`和`#`的语法。
+## sintaxe diferente
+A função diff é indispensável no sistema de controle de versão, ou seja, para exibir a adição e exclusão de conteúdo de um arquivo.
+O efeito de diferença de exibição que pode ser exibido no GFM. Use verde para adições e vermelho para exclusões.
+#### gramática
+Sua sintaxe é semelhante ao realce de código, basta escrever diff após três acentos graves,
+E em seu conteúdo, você pode usar o início de `+` para indicar adição e o início de `-` para indicar exclusão.
+Há também sintaxe com `!` e `#`.
 
-#### 效果
+#### Efeito
 
-```diff
-+ 人闲桂花落，
-- 夜静春山空。
-! 月出惊山鸟，
-# 时鸣春涧中。
+``` diferença
++ O osmanthus de cheiro doce cai quando as pessoas estão ociosas,
+- A noite é tranquila, as montanhas ficam vazias na primavera.
+!
+# Quando Ming Chunjian.
 ```
-## 常用HTML语法
-markdown是支持HTML语法的，虽然不鼓励大量使用HTML语法，毕竟那样就丧失了markdown的意义，但是有一些HTML语法在写README的时候是很少的补充。
-### 折叠
-```
-<details>
-<summary>Linux环境</summary>
-
-##### 编译
-xxxx
-
-##### 安装
-xxxx
-</details>
+## Sintaxe HTML comum
+Markdown suporta sintaxe HTML. Embora um grande número de sintaxe HTML não seja encorajado, afinal, ele perderá o significado de markdown, mas há algumas sintaxes HTML que raramente são adicionadas ao escrever o README.
+### dobrar
 ```
 <details>
 <summary>Linux环境</summary>
 
-##### 编译
+
+##### compilar
 xxxx
 
-##### 安装
+##### Instalar
+xxxx
+```
+<details>
+<summary>Linux arredores</summary>
+
+##### compilar
 xxxx
 
+##### Instalar
+xxxx
 </details>
 
-### 居中
+### Centralização
 
-很多地方都会用到居中的效果，比如如下内容将会把一个表格在页面中居中展示：
+O efeito de centralização é usado em muitos lugares. Por exemplo, o conteúdo a seguir exibirá uma tabela no centro da página:
 
 ```
 <div align="center">
 
-| 表头1  | 表头2|
+| Cabeçalho 1 | Cabeçalho 2 |
 | ---------- | -----------|
-| 表格单元   | 表格单元   |
-| 表格单元   | 表格单元   |
+| Células da Tabela | Células da Tabela |
+| Células da Tabela | Células da Tabela |
 
 </div>
 ```
 
 <div align="center">
 
-| 表头1  | 表头2|
+| Cabeçalho 1 | Cabeçalho 2 |
 | ---------- | -----------|
-| 表格单元   | 表格单元   |
-| 表格单元   | 表格单元   |
+| Células da Tabela | Células da Tabela |
+| Células da Tabela | Células da Tabela |
 
 </div>
 
-其他任意需要居中展示的语法，都可以放在其中。
+Qualquer outra sintaxe que precise ser exibida no centro pode ser colocada nela.
 
-## 其他
-还有一些非markdown语法，但是在README文件中也很实用的组件。
-### 徽章
-绘制徽章，首选就是[shields.io](https://shields.io/)  具体语法去官网探索。
+## outro
+Há também algumas sintaxes não remarcadas, mas também componentes úteis em arquivos README.
+### distintivo
+Para desenhar insígnias, a primeira escolha é [shields.io](https://shields.io/)  Para gramática específica, acesse o site oficial para explorar.
 
 ![LICENSE](https://img.shields.io/badge/license-MIT-green)
 ![Author](https://img.shields.io/badge/Author-guodongxiaren-blue.svg)
 ![zhihu-shield]
 
-其次有些第三方平台也提供方便的徽章，比如gitter：
+Em segundo lugar, algumas plataformas de terceiros também fornecem emblemas convenientes, como gitter:
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://badges.gitter.im/guodongxiaren/README.svg)](https://gitter.im/guodongxiaren/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-### star历史
-star历史可以使用这个网站[star-history.com](https://star-history.com/)
+### história da estrela
+histórico de estrelas pode usar este site [star-history.com](https://star-history.com/)
 ```
 [![Star History Chart](https://api.star-history.com/svg?repos=guodongxiaren/README&type=Date)](https://star-history.com/#guodongxiaren/README&Date)
 ```
-这段代码的显示效果如下：
+O efeito de exibição desse código é o seguinte:
 
 [![Star History Chart](https://api.star-history.com/svg?repos=guodongxiaren/README&type=Date)](https://star-history.com/#guodongxiaren/README&Date)
 
 
 --------------------------------
-[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
-[zhihu]:https://www.zhihu.com/people/guodongxiaren "我的知乎，欢迎关注"
+[csdn]:http://blog.csdn.net/guodongxiaren "meu blog"
+[zhihu]:https://www.zhihu.com/people/guodongxiaren "Meu Zhihu, bem-vindo para prestar atenção"
 [weibo]:http://weibo.com/linpiaochen
-[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:/img/weibo.png "点击图片进入我的微博"
-[csdn-logo]:/img/csdn.png "我的CSDN博客"
-[code-past]:/img/codepast-logo.jpg "公众号：编程往事"
+[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "logotipo Baidu"
+[weibo-logo]:/img/weibo.png "Clique na imagem para entrar no meu Weibo"
+[csdn-logo]:/img/csdn.png "Meu blog CSDN"
+[code-past]:/img/codepast-logo.jpg "Conta Oficial: História da Programação"
 [zhihu-shield]:https://img.shields.io/badge/dynamic/json?color=0084ff&logo=zhihu&label=%E6%9E%9C%E5%86%BB%E8%99%BE%E4%BB%81&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dguodongxiaren
