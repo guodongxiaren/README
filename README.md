@@ -396,7 +396,7 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 # 时鸣春涧中。
 ```
 ## 常用HTML语法
-markdown是支持HTML语法的，虽然不鼓励大量使用HTML语法，毕竟那样就丧失了markdown的意义，但是有一些HTML语法在写README的时候是很少的补充。
+markdown是支持HTML语法的，虽然不鼓励大量使用HTML语法，毕竟那样就丧失了markdown的意义，但是有一些HTML语法在写README的时候是很好的补充。
 ### 折叠
 ```
 <details>
