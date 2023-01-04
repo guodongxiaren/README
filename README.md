@@ -25,8 +25,8 @@ README
     * 粗体
     * 删除线
 * [图片](#图片)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
+    * [基本格式](#基本格式)
+    * [图片缩放](#图片缩放)
 * [链接](#链接)
     * 文字超链接
         *  链接外部URL
@@ -134,7 +134,7 @@ ___
     斜体、粗体、删除线可混合使用
 
 ## 图片
-基本格式：
+### 基本格式
 ```
 ![alt](URL title)
 ```
@@ -146,13 +146,22 @@ URL即图片的url地址，如果引用本仓库中的图片，直接使用**相
 ```
 https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
-
+### 图片缩放
+如果需要缩放图片，可以使用HTML（不可使用相对路径），如：
+```
+<img src="URL" alt="title" width="宽度像素px">
+```
+或者
+```
+<img src="URL" alt="title" height="高度像素px">
+```
 |#|语法|效果|
 |---|---|----
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|2|`![][code-past]`|![][code-past]
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")|
+|2|`<img src="http://www.baidu.com/img/bdlogo.gif" alt="百度logo" width="100px">`|<img src="http://www.baidu.com/img/bdlogo.gif" alt="百度logo" width="100px">|
+|3|`![][code-past]`|![][code-past]|
 
-注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
+注意例3的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
 >在文末有code-past的定义：
 ```
 [code-past]:/img/codepast-logo.jpg "公众号：编程往事"
