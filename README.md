@@ -312,6 +312,25 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>>> 平衡二叉树
 >>>>> 满二叉树
 
+### 带有图标的提示块
+带图标的提示，达到更加醒目的提示效果。
+
+#### 语法
+```
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+```
+
+#### 效果
+> **Note**
+> 提示文字
+
+> **Warning**
+> 警告文字
+
 ## 代码高亮
 
 ### 语法
