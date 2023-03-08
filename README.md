@@ -45,6 +45,7 @@ README
 * [常用HTML语法](#常用HTML语法)
     * [折叠](#折叠)
     * [居中](#居中)
+* [提示](#提示)
 * [其他](#其他)
     * [徽章](#徽章)
     * [star历史](#star历史)
@@ -311,6 +312,25 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>> 二叉树
 >>>> 平衡二叉树
 >>>>> 满二叉树
+
+### 带有图标的提示块
+带图标的提示，达到更加醒目的提示效果。
+
+#### 语法
+```
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+```
+
+#### 效果
+> **Note**
+> 提示文字
+
+> **Warning**
+> 警告文字
 
 ## 代码高亮
 
